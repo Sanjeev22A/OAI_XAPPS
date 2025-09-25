@@ -22,7 +22,13 @@
   - The 5G PHY simulators: nr_dlschsim, nr_dlsim, nr_pbchsim, nr_pucchsim, nr_ulschsim, nr_ulsim, polartest, smallblocktest, nr _ulsim, ldpctest.
 
 - Refer to the file [Build Options](Build_Options.md) file for the build details
-- 
+- From the above reference we will use the options -I to install all dependencies, --install-optional-packages for optional libraries and -w for SDR (Software Defined Radio) dependencies.
+    ```bash
+      cd openairinterface5g/cmake_targets/./build_oai -I --install-optional-packages -w USRP
+    '''
+    
+
+      
     
 
 
