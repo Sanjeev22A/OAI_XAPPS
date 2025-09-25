@@ -24,7 +24,7 @@
 - Refer to the file [Build Options](Build_Options.md) file for the build details
 - From the above reference we will use the options -I to install all dependencies, --install-optional-packages for optional libraries and -w for SDR (Software Defined Radio) dependencies.
     ```bash
-      ./build_oai -I --install-optional-packages -w USRP
+  ./build_oai -I --install-optional-packages -w USRP
     ```
     
 
