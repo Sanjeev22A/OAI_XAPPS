@@ -21,7 +21,7 @@
   - LTE physical simulators: dlsim and ulsim
   - The 5G PHY simulators: nr_dlschsim, nr_dlsim, nr_pbchsim, nr_pucchsim, nr_ulschsim, nr_ulsim, polartest, smallblocktest, nr _ulsim, ldpctest.
 
-- Refer to the file [Build_Options.md](build_options) file for the build details
+- Refer to the file [Build Options](Build_Options.md) file for the build details
 - 
     
 
