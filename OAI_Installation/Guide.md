@@ -9,7 +9,7 @@
 - Next step is to build the project. To build it go to the directory cmake_targets inside the pulled project
   - Run the below given command to go to the particular directory
     ```bash
-      cd cmake_targets
+    cd cmake_targets
     ```
     Be careful to run this command only from the correct directory. Otherwise you will face an error.
 - Locate a file named build_oai in the current directory. This script is developed to build the oai binaries for different hardware platforms and usecases. The main OAI binaries currently available are:
