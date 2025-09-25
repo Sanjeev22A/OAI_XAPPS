@@ -7,7 +7,7 @@
   git pull https://gitlab.eurecom.fr/oai/openairinterface5g.git
   ```
 - Next step is to build the project. To build it go to the directory cmake_targets inside the pulled project
--   Run the below given command to go to the particular directory
+  - Run the below given command to go to the particular directory
     ```bash
       cd cmake_targets
     ```
