@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     %% Title
-    A[F1 Application Protocol (F1AP) Modules]
+    A[F1 Application Protocol F1AP Modules]
 
     %% CU Side
     subgraph B[CU-side]
