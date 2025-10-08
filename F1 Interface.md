@@ -1,7 +1,7 @@
 ```mermaid
-graph TD
+graph TB
     %% Title
-    A[F1 Application Protocol F1AP Modules]
+    A[F1 Application Protocol Modules]
 
     %% CU Side
     subgraph B[CU-side]
@@ -34,6 +34,13 @@ graph TD
     B3 --> D3
     B4 --> D2
     B5 --> D1
+
+    C1 --> D1
+    C2 --> D2
+    C3 --> D3
+    C4 --> D2
+    C5 --> D1
+
 
     C1 --> D1
     C2 --> D2
