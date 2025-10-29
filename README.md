@@ -264,6 +264,7 @@ cd oai-cn5g-fed/docker-compose
 ```bash
 docker compose -f docker-compose-slicing-basic-nrf.yaml up -d
 ```
+Note: If you have used alternate docker installation use docker-compose in command instead of docker compose
 
 ### ✅ Verify Deployment
 
