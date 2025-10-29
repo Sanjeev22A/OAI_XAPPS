@@ -38,7 +38,7 @@
 ```bash
 sudo apt -f install
 sudo apt update
-sudo apt install -reinstall ubuntu-desktop
+sudo apt install --reinstall ubuntu-desktop
 ```
 - Then reboot the system from command line
 ```bash
