@@ -14,7 +14,7 @@
 ---
 
 ## 📋 Table of Contents
-
+- [GUI-Fix](#gui-fix)
 - [Overview](#-overview)
 - [Architecture](#-architecture)
 - [Pre-requisites](#️-section-1-pre-requisites)
@@ -32,7 +32,18 @@
 - [References](#-references)
 
 ---
-
+### GUI-Fix
+- This error happens due to broken package installations.
+- Fix using three simple commands:
+```bash
+sudo apt -f install
+sudo apt update
+sudo apt install -reinstall ubuntu-desktop
+```
+- Then reboot the system from command line
+```bash
+reboot
+```
 ## 🌟 Overview
 
 This repository provides a **complete, reproducible setup** for the **OpenAirInterface (OAI) 5G Full Stack**, enabling research in:
