@@ -306,7 +306,7 @@ cd ~/OAI/openairinterface5g/openair2/E2AP/flexric/build/examples/ric
 ```bash
 cd ~/OAI/openairinterface5g/cmake_targets/ran_build/build
 sudo ./nr-softmodem \
-  -O ~/OAI/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpb210.conf \
+  -O ~/OAI/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.pci0.rfsim.conf   \
   --rfsim \
   --e2_agent.near_ric_ip_addr 127.0.0.1 \
   --e2_agent.sm_dir /usr/local/lib/flexric/ \
