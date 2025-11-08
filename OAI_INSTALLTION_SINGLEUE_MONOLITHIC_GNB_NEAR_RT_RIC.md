@@ -253,16 +253,22 @@ reboot
 ### 📦 Deploy CN5G Core Network
 
 ```bash
-mkdir ~/OAI_CN
-cd ~/OAI_CN
-git clone https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed.git
-cd oai-cn5g-fed/docker-compose
+# Download OAI CN5G resources archive
+wget -O ~/oai-cn5g.zip "https://gitlab.eurecom.fr/oai/openairinterface5g/-/archive/develop/openairinterface5g-develop.zip?path=doc/tutorial_resources/oai-cn5g"
+
+# Unzip and move to your working directory
+unzip ~/oai-cn5g.zip
+mv ~/OAI/openairinterface5g-develop-doc-tutorial_resources-oai-cn5g/doc/tutorial_resources/oai-cn5g ~/OAI/oai-cn5g
+
+# Clean up unnecessary files
+rm -r ~/openairinterface5g-develop-doc-tutorial_resources-oai-cn5g ~/oai-cn5g.zip
 ```
 
 **Start the core network with slicing support:**
 
 ```bash
-docker compose -f docker-compose-slicing-basic-nrf.yaml up -d
+cd ~/OAI/oai-cn5g
+sudo docker compose up -d
 ```
 Note: If you have used alternate docker installation use docker-compose in command instead of docker compose
 
@@ -272,20 +278,10 @@ Note: If you have used alternate docker installation use docker-compose in comma
 
 ```bash
 docker ps
-docker compose -f docker-compose-slicing-basic-nrf.yaml ps -a
 ```
-
-**Monitor component logs:**
-
+**Check the logs of the containers:**
 ```bash
-# AMF logs
-docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_amf
-
-# SMF Slice 1 logs
-docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_smf_slice1
-
-# UPF Slice 1 logs
-docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_upf_slice1
+docker compose logs
 ```
 **Core Network Startup**
 <img width="1854" height="971" alt="image" src="https://github.com/user-attachments/assets/fb3ec270-910a-4375-8e05-ccf3ca77e072" />
