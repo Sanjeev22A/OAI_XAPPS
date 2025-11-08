@@ -80,4 +80,7 @@ FlexRIC enables you to:
 * [OAI Documentation Portal](https://openairinterface.org/oai-documentation/)
 
 ---
-
+## Scopes To Look Into
+* Kubernetes and Helm Integration into a deployable End to End Network
+* Multi UE Setup
+* GNB Split/ Disaggregation
