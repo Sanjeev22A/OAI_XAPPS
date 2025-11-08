@@ -57,7 +57,7 @@ FlexRIC enables you to:
 | [**OAI_Installation/**](OAI_Installation/) | Contains installation and build instructions for OAI. |
 | ┣ [Build_Options.md](OAI_Installation/Build_Options.md) | Describes OAI build-time configuration options. |
 | ┣ [Guide.md](OAI_Installation/Guide.md) | Step-by-step guide to install and configure OAI. |
-| [OAI_Guide.pdf](OAI_Guide.pdf) | Comprehensive OAI setup and architecture documentation. |
+| ┣ [OAI_Guide.pdf](OAI_Installation/OAI_Guide.pdf) | Comprehensive OAI setup and architecture documentation. |
 | [OAI_INSTALLTION_SINGLEUE_MONOLITHIC_GNB_NEAR_RT_RIC.md](OAI_INSTALLTION_SINGLEUE_MONOLITHIC_GNB_NEAR_RT_RIC.md) | Explains how to run OAI in single-UE test mode with a monolithic gNB architecture and Near-RT RIC support. |
 | [README.md](README.md) | (This file) Overview of the repository and usage instructions. |
 
