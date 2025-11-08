@@ -43,27 +43,27 @@ FlexRIC enables you to:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 | Folder / File | Description |
 |----------------|-------------|
 | [**Flowchart/**](Flowchart/) | Contains flow diagrams and protocol-level data flow explanations for different layers (PHY, MAC, RLC, PDCP). |
-| ┣ 📄 [F1 Interface.md](Flowchart/F1%20Interface.md) | Explains the F1-C/F1-U interface flow between gNB and DU. |
-| ┣ 📄 [MAC_LAYER_DATA_FLOW.md](Flowchart/MAC_LAYER_DATA_FLOW.md) | Describes MAC-layer scheduling and data flow in OAI. |
-| ┣ 📄 [PDCP_Functional_Flow_OAI.md](Flowchart/PDCP_Functional_Flow_OAI.md) | Functional overview of PDCP in OAI. |
-| ┣ 📄 [PHY_RF.md](Flowchart/PHY_RF.md) | Details PHY and RF data flow. |
-| ┣ 📄 [Protocol_Flow_5G.md](Flowchart/Protocol_Flow_5G.md) | Complete 5G protocol flow overview. |
-| ┣ 📄 [RLC Packet flow.md](Flowchart/RLC%20Packet%20flow.md) | Visualizes RLC layer packet handling. |
+| ┣ [F1 Interface.md](Flowchart/F1%20Interface.md) | Explains the F1-C/F1-U interface flow between gNB and DU. |
+| ┣ [MAC_LAYER_DATA_FLOW.md](Flowchart/MAC_LAYER_DATA_FLOW.md) | Describes MAC-layer scheduling and data flow in OAI. |
+| ┣ [PDCP_Functional_Flow_OAI.md](Flowchart/PDCP_Functional_Flow_OAI.md) | Functional overview of PDCP in OAI. |
+| ┣ [PHY_RF.md](Flowchart/PHY_RF.md) | Details PHY and RF data flow. |
+| ┣ [Protocol_Flow_5G.md](Flowchart/Protocol_Flow_5G.md) | Complete 5G protocol flow overview. |
+| ┣ [RLC Packet flow.md](Flowchart/RLC%20Packet%20flow.md) | Visualizes RLC layer packet handling. |
 | [**OAI_Installation/**](OAI_Installation/) | Contains installation and build instructions for OAI. |
-| ┣ 📄 [Build_Options.md](OAI_Installation/Build_Options.md) | Describes OAI build-time configuration options. |
-| ┣ 📄 [Guide.md](OAI_Installation/Guide.md) | Step-by-step guide to install and configure OAI. |
-| 📄 [OAI_Guide.pdf](OAI_Guide.pdf) | Comprehensive OAI setup and architecture documentation. |
-| 📄 [OAI_INSTALLTION_SINGLEUE_MODE.md](OAI_INSTALLTION_SINGLEUE_MODE.md) | Explains how to run OAI in single-UE test mode. |
-| 📄 [README.md](README.md) | (This file) Overview of the repository and usage instructions. |
+| ┣ [Build_Options.md](OAI_Installation/Build_Options.md) | Describes OAI build-time configuration options. |
+| ┣ [Guide.md](OAI_Installation/Guide.md) | Step-by-step guide to install and configure OAI. |
+| [OAI_Guide.pdf](OAI_Guide.pdf) | Comprehensive OAI setup and architecture documentation. |
+| [OAI_INSTALLTION_SINGLEUE_MONOLITHIC_GNB_NEAR_RT_RIC.md](OAI_INSTALLTION_SINGLEUE_MONOLITHIC_GNB_NEAR_RT_RIC.md) | Explains how to run OAI in single-UE test mode with a monolithic gNB architecture and Near-RT RIC support. |
+| [README.md](README.md) | (This file) Overview of the repository and usage instructions. |
 
 ---
 
-## 🧠 Suggested Use Cases
+##  Suggested Use Cases
 
 * **Learning**: Understand how different OAI layers interact (PHY → PDCP).
 * **Research**: Develop and test xApps for PRB allocation, KPI monitoring, or traffic classification.
