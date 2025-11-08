@@ -1,6 +1,6 @@
 ---
 
-# 🛰️ oai_Xapps
+#  oai_Xapps
 
 ## Overview
 
@@ -9,7 +9,7 @@ It is designed to help researchers, developers, and students build, visualize, a
 
 ---
 
-## 🔍 What is OpenAirInterface (OAI)?
+##  What is OpenAirInterface (OAI)?
 
 **OpenAirInterface (OAI)** is an open-source project that implements the full 4G/5G RAN and Core Network.
 It allows simulation, testing, and validation of 5G features such as:
@@ -23,12 +23,12 @@ OAI enables research and development of end-to-end 5G networks in both simulated
 
 ---
 
-## ⚙️ What is OAI FlexRIC?
+##  What is OAI FlexRIC?
 
 **FlexRIC** is a lightweight and modular **O-RAN-compliant RAN Intelligent Controller (RIC)** framework developed under OAI.
 It enables integration of **xApps** and **rApps** to implement real-time and near-real-time control loops for RAN optimization.
 
-### 🔧 Key Features:
+###  Key Features:
 
 * Implements the **E2 interface** for communication between gNB and near-RT RIC.
 * Supports **E2AP**, **E2SM-KPM**, and **E2SM-RC** services.
@@ -43,20 +43,20 @@ FlexRIC enables you to:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 | Folder / File                        | Description                                                                                                  |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
 | **Flowchart/**                       | Contains flow diagrams and protocol-level data flow explanations for different layers (PHY, MAC, RLC, PDCP). |
-| ┣ 📄 `F1 Interface.md`               | Explains the F1-C/F1-U interface flow between gNB and DU.                                                    |
-| ┣ 📄 `MAC_LAYER_DATA_FLOW.md`        | Describes MAC-layer scheduling and data flow in OAI.                                                         |
-| ┣ 📄 `PDCP_Functional_Flow_OAI.md`   | Functional overview of PDCP in OAI.                                                                          |
-| ┣ 📄 `PHY_RF.md`                     | Details PHY and RF data flow.                                                                                |
-| ┣ 📄 `Protocol_Flow_5G.md`           | Complete 5G protocol flow overview.                                                                          |
-| ┣ 📄 `RLC Packet flow.md`            | Visualizes RLC layer packet handling.                                                                        |
+| ┣  `F1 Interface.md`               | Explains the F1-C/F1-U interface flow between gNB and DU.                                                    |
+| ┣  `MAC_LAYER_DATA_FLOW.md`        | Describes MAC-layer scheduling and data flow in OAI.                                                         |
+| ┣  `PDCP_Functional_Flow_OAI.md`   | Functional overview of PDCP in OAI.                                                                          |
+| ┣  `PHY_RF.md`                     | Details PHY and RF data flow.                                                                                |
+| ┣  `Protocol_Flow_5G.md`           | Complete 5G protocol flow overview.                                                                          |
+| ┣  `RLC Packet flow.md`            | Visualizes RLC layer packet handling.                                                                        |
 | **OAI_Installation/**                | Contains installation and build instructions for OAI.                                                        |
-| ┣ 📄 `Build_Options.md`              | Describes OAI build-time configuration options.                                                              |
-| ┣ 📄 `Guide.md`                      | Step-by-step guide to install and configure OAI.                                                             |
+| ┣  `Build_Options.md`              | Describes OAI build-time configuration options.                                                              |
+| ┣  `Guide.md`                      | Step-by-step guide to install and configure OAI.                                                             |
 | **OAI_Guide.pdf**                    | Comprehensive OAI setup and architecture documentation.                                                      |
 | **OAI_INSTALLTION_SINGLEUE_MODE.md** | Explains how to run OAI in single-UE test mode.                                                              |
 | **README.md**                        | (This file) Overview of the repository and usage instructions.                                               |
@@ -72,7 +72,7 @@ FlexRIC enables you to:
 
 ---
 
-## 📘 References
+##  References
 
 * [OAI Official Website](https://openairinterface.org/)
 * [FlexRIC GitHub Repository](https://gitlab.eurecom.fr/mosaic5g/flexric)
