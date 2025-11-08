@@ -16,7 +16,6 @@
 ## 📋 Table of Contents
 - [GUI-Fix](#gui-fix)
 - [Overview](#-overview)
-- [Architecture](#-architecture)
 - [Pre-requisites](#️-section-1-pre-requisites)
 - [Build SWIG](#-section-2-build-swig)
 - [Build OAI with E2](#️-section-3-build-oai-with-e2-support)
