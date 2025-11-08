@@ -287,6 +287,8 @@ docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_smf_slice1
 # UPF Slice 1 logs
 docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_upf_slice1
 ```
+**Core Network Startup**
+<img width="1854" height="971" alt="image" src="https://github.com/user-attachments/assets/fb3ec270-910a-4375-8e05-ccf3ca77e072" />
 
 ---
 
@@ -298,6 +300,8 @@ docker compose -f docker-compose-slicing-basic-nrf.yaml logs -f oai_upf_slice1
 cd ~/OAI/openairinterface5g/openair2/E2AP/flexric/build/examples/ric
 ./nearRT-RIC
 ```
+**Near-RT RIC Connected**
+<img width="1076" height="586" alt="image" src="https://github.com/user-attachments/assets/dbbf0467-acd6-4f19-a6a1-79c892749617" />
 
 > **💡 Tip:** Keep this terminal open to monitor RIC logs.
 
@@ -314,6 +318,12 @@ sudo ./nr-softmodem \
 ```
 
 > **Note:** The gNB connects to the RIC via E2AP interface.
+
+
+**GNB Connected**
+<img width="1842" height="1007" alt="image" src="https://github.com/user-attachments/assets/272d01ec-dab1-475e-b01d-d91949a94d7e" />
+<img width="1842" height="1007" alt="image" src="https://github.com/user-attachments/assets/eef54a0c-f8be-4be3-8edb-30d15b68fd65" />
+<img width="1842" height="1007" alt="image" src="https://github.com/user-attachments/assets/67ddc767-6075-486c-8c5c-f05f1eeac301" />
 
 ---
 
@@ -337,7 +347,9 @@ sudo phc2sys -s /dev/ptp1 -c CLOCK_REALTIME -w -m -x
 ```
 
 > **Note:** Replace `eno1` and `/dev/ptp1` with your interface and PTP device.
-
+**Physical Clock Synchronization**
+<img width="41" height="41" alt="image" src="https://github.com/user-attachments/assets/e473a37c-7cfe-41be-84a1-d4fe1d917c49" />
+_
 ---
 
 ## 📱 Section 8: Start OAI UE
@@ -354,6 +366,11 @@ sudo ./nr-uesoftmodem \
 ```
 
 > **✅ Success Indicator:** Look for "RRC Connected" and PDU session establishment logs.
+
+**UE Connected**
+<img width="1676" height="961" alt="image" src="https://github.com/user-attachments/assets/893c5245-eaf7-4a00-8bb3-a6492d5c87c7" />
+<img width="1676" height="961" alt="image" src="https://github.com/user-attachments/assets/b62e40f0-f2ba-4b50-83f6-95466c743605" />
+<img width="1676" height="961" alt="image" src="https://github.com/user-attachments/assets/dd7ee5d0-4fff-4b46-b700-fb9486c5b2b3" />
 
 ---
 
@@ -377,6 +394,9 @@ XAPP_DURATION=30 ./build/examples/xApp/c/monitor/xapp_kpm_moni
 - Throughput (DL/UL)
 - PRB utilization
 - Active UE count
+
+**Monitoring XAPP Running successfully**
+<img width="1549" height="882" alt="image" src="https://github.com/user-attachments/assets/0b5b2717-863e-4bdb-9d11-22ad24fc9af5" />
 
 ### ⚙️ RC Monitor xApp
 
@@ -510,7 +530,7 @@ docker system prune -af
 
 **Krithika Ravishankar** and **Sanjeev A**
 
-📅 **Last Updated:** 28 October 2025
+📅 **Last Updated:** 8th November 2025
 
 ---
 
