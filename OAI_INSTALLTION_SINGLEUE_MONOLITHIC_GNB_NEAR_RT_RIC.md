@@ -542,14 +542,4 @@ This guide enables **reproducible OAI 5G Full Stack deployments** for research i
 
 ---
 
-<div align="center">
 
-### 🌟 Star this repository if you find it helpful!
-
-**Questions?** Open an issue or contribute via pull requests.
-
-</div>
-
----
-
-**License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) (OAI Project License)
