@@ -77,7 +77,6 @@ FlexRIC enables you to:
 * [OAI Official Website](https://openairinterface.org/)
 * [FlexRIC GitHub Repository](https://gitlab.eurecom.fr/mosaic5g/flexric)
 * [O-RAN Alliance Specifications](https://www.o-ran.org/specifications)
-* [OAI Documentation Portal](https://openairinterface.org/oai-documentation/)
 
 ---
 ## Scopes To Look Into
