@@ -43,19 +43,6 @@ FlexRIC enables you to:
 
 ---
 
-## 🐳 Running OAI FlexRIC in Docker
-
-This repository is structured to support **Docker-based deployment** of the OAI and FlexRIC environment.
-
-Typical workflow:
-
-1. **Build and configure** OAI components inside Docker.
-2. **Launch the RIC and E2 Agent containers** (gNB/UE).
-3. **Develop and deploy xApps** that communicate with the near-RT RIC.
-4. **Visualize data flows** using the flowcharts and protocol documents provided.
-
----
-
 ## 📁 Repository Structure
 
 | Folder / File                        | Description                                                                                                  |
