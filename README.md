@@ -69,13 +69,14 @@ graph TB
     A[5G Core Network<br/>CN5G] --> B[nearRT-RIC<br/>FlexRIC]
     B --> C[gNB<br/>E2 Agent]
     C --> D[UE<br/>nr-uesoftmodem]
-    B --> E[xApps<br/>KPM/RC/MAC/RLC]
-    
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#ffe1f5
-    style D fill:#e1ffe1
-    style E fill:#f5e1ff
+    B --> E[xApps<br/>KPM / RC / MAC / RLC]
+
+    style A fill:#b3e5fc,stroke:#0288d1,stroke-width:2px,color:#000
+    style B fill:#ffe082,stroke:#ffb300,stroke-width:2px,color:#000
+    style C fill:#f48fb1,stroke:#ad1457,stroke-width:2px,color:#000
+    style D fill:#a5d6a7,stroke:#2e7d32,stroke-width:2px,color:#000
+    style E fill:#ce93d8,stroke:#6a1b9a,stroke-width:2px,color:#000
+
 ```
 
 ---
